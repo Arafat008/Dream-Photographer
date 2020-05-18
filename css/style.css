@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:#5d5d5a
+}
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-color: #ffcdab;
+}
+.logo{
+    font-size: 1.5em;
+    color: white;
+    padding: 1em;
+}
+section{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+   height: 60%;
+   width: 1000%;
+      
+}
+.hero img{
+    height: 100%;
+    width: 100%;
+    
+}
+.headline{
+    position: absolute;
+    top:65%;
+    left: 30%;
+    color:white;
+    font-size: 5em;
+    transform: translate(-20%,-70%);
+}
